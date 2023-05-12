@@ -20,7 +20,7 @@ For the project, I use the [New York City Airbnb Open Data](https://www.kaggle.c
 ## 2. Modelling
 Followed by Data Preprocessing, I employed seven different models to predict the price of Airbnb listings in New York City. These models include Linear Regression with all predictors, Linear Regression with best subset variable selection, Decision Trees, Bagging, Random Forests, Boosting, and Support Vector Machine. 
 
-## 3.Conclusion
+## 3. Conclusion
 
 The finding suggests that SVM is a reliable model for predicting the price of an Airbnb listing in the given dataset.
 While SVM is the best overall performer, it is notable that the other models also demonstrate reasonable performance, with test RMSEs ranging from 207 to 239. 
