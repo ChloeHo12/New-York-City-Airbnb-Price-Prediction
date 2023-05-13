@@ -1,4 +1,5 @@
 # Predicting the price of Airbnb Listings in New York City
+## Here is the link to [Tableau - Exploratory Data Analysis Dashboard](https://public.tableau.com/app/profile/nguyen.ho2733/viz/Airbnb_16840158070070/Dashboard3)
 
 ## 1. Introduction to the data set
 
@@ -8,13 +9,16 @@ For the project, I use the [New York City Airbnb Open Data](https://www.kaggle.c
 - `name`: the title of the Airbnb listing
 - `host_id`: a unique identifier for each Airbnb host
 - `host_name`: the name of the Airbnb host
-- `neighbourhood_group`: the borough in which the listing is located neighbourhood: the specific neighbourhood in which the listing is located 
+- `neighbourhood_group`: the borough in which the listing is located 
+- `neighbourhood`: the specific neighbourhood in which the listing is located 
 - `latitude`: the latitude coordinate of the listing
 - `longitude`: the longitude coordinate of the listing
 - `room_type`: the type of room (entire home, private room, or shared room)
 - `price`: the price for the listing per night
-- `minimum_nights`: the minimum number of nights required for a booking number_of_reviews: the total number of reviews for the listing
-- `reviews_per_month`: the average number of reviews per month for the listing availability_365: the number of days in a year that the listing is available for booking 
+- `minimum_nights`: the minimum number of nights required for a booking 
+- `number_of_reviews`: the total number of reviews for the listing
+- `reviews_per_month`: the average number of reviews per month for the listing 
+- `availability_365`: the number of days in a year that the listing is available for booking 
 - `calculated_host_listing_count`: the number of listings of each Airbnb host
 
 ## 2. Modelling
