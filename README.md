@@ -1,5 +1,5 @@
 # Predicting the price of Airbnb Listings in New York City
-## Here is the link to [Tableau - Exploratory Data Analysis Dashboard](https://public.tableau.com/app/profile/nguyen.ho2733/viz/Airbnb_16840158070070/Dashboard3)
+## Here is the link to the Tableau interactive dashboard [Tableau - AirBbB in NYC Analytics](https://public.tableau.com/app/profile/nguyen.ho2733/viz/Airbnb_16840158070070/Dashboard3)
 
 ## 1. Introduction to the data set
 
@@ -21,10 +21,14 @@ For the project, I use the [New York City Airbnb Open Data](https://www.kaggle.c
 - `availability_365`: the number of days in a year that the listing is available for booking 
 - `calculated_host_listing_count`: the number of listings of each Airbnb host
 
-## 2. Modelling
+## 2. Data Exploration
+<img width="1141" alt="Screen Shot 2023-05-14 at 10 19 46 PM" src="https://github.com/ChloeHo12/New-York-City-Airbnb-Price-Prediction/assets/98048503/4f2a70cc-ce0d-4338-b941-1852f40e9bd5">
+
+
+## 3. Modelling
 Followed by Data Preprocessing, I employed seven different models to predict the price of Airbnb listings in New York City. These models include Linear Regression with all predictors, Linear Regression with best subset variable selection, Decision Trees, Bagging, Random Forests, Boosting, and Support Vector Machine. 
 
-## 3. Conclusion
+## 4. Conclusion
 
 The finding suggests that SVM is a reliable model for predicting the price of an Airbnb listing in the given dataset.
 While SVM is the best overall performer, it is notable that the other models also demonstrate reasonable performance, with test RMSEs ranging from 207 to 239. 
