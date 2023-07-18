@@ -10,7 +10,7 @@ For the project, I use the [New York City Airbnb Open Data](https://www.kaggle.c
 - `host_id`: a unique identifier for each Airbnb host
 - `host_name`: the name of the Airbnb host
 - `neighbourhood_group`: the borough in which the listing is located 
-- `neighbourhood`: the specific neighbourhood in which the listing is located 
+- `neighbourhood`: the specific neighborhood in which the listing is located 
 - `latitude`: the latitude coordinate of the listing
 - `longitude`: the longitude coordinate of the listing
 - `room_type`: the type of room (entire home, private room, or shared room)
@@ -25,7 +25,7 @@ For the project, I use the [New York City Airbnb Open Data](https://www.kaggle.c
 <img width="1141" alt="Screen Shot 2023-05-14 at 10 19 46 PM" src="https://github.com/ChloeHo12/New-York-City-Airbnb-Price-Prediction/assets/98048503/4f2a70cc-ce0d-4338-b941-1852f40e9bd5">
 
 
-## 3. Modelling
+## 3. Modeling
 Followed by Data Preprocessing, I employed seven different models to predict the price of Airbnb listings in New York City. These models include Linear Regression with all predictors, Linear Regression with best subset variable selection, Decision Trees, Bagging, Random Forests, Boosting, and Support Vector Machine. 
 
 ## 4. Conclusion
